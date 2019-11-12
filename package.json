@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "@axel92dev/wedding",
+  "description": "Me and Giulia Wedding website",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Alessandro Romano",
   "dependencies": {
     "gatsby": "^2.15.28",
     "gatsby-plugin-manifest": "^2.2.20",
