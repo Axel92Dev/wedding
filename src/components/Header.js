@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { sections } from './sections'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -14,46 +15,18 @@ const Header = props => (
     </div>
     <nav>
       <ul>
-        <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle('location')
-            }}
-          >
-            Location
-          </a>
-        </li>
-        <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle('work')
-            }}
-          >
-            Work
-          </a>
-        </li>
-        <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            About
-          </a>
-        </li>
-        <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Contact
-          </a>
-        </li>
+        {sections.map(section => (
+          <li>
+            <a
+              href={null}
+              onClick={() => {
+                props.onOpenArticle(section.id)
+              }}
+            >
+              {section.title}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   </header>
