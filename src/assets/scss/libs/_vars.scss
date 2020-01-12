@@ -1,3 +1,9 @@
+$dark-blue: #01314b;
+$blue: #248ab8;
+$light-blue: #7fc2db;
+$white: #eff0ee;
+$beige: #e6c6a9;
+
 // Misc.
 	$misc: (
 		z-index-base:				10000
@@ -14,7 +20,7 @@
 // Size.
 	$size: (
 		border-radius:				4px,
-		border-width:				1px,
+		border-width:				2px,
 		element-height:				2.75rem,
 		element-margin:				2rem
 	);
@@ -31,13 +37,13 @@
 
 // Palette.
 	$palette: (
-		bg:							#1b1f22,
-		bg-alt:						#000000,
-		bg-overlay:					rgba(19,21,25,0.5),
-		fg:							#ffffff,
-		fg-bold:					#ffffff,
-		fg-light:					rgba(255,255,255,0.5),
-		border:						#ffffff,
-		border-bg:					rgba(255,255,255,0.075),
-		border-bg-alt:				rgba(255,255,255,0.175)
+		bg:							$blue,
+		bg-alt:						$dark-blue,
+		bg-overlay:					rgba($dark-blue, 0.4),
+		fg:							$beige,
+		fg-bold:					$beige,
+		fg-light:					rgba($beige,0.5),
+		border:						$beige,
+		border-bg:					rgba($beige,0.075),
+		border-bg-alt:				rgba($beige,0.175)
 	);
