@@ -1,8 +1,8 @@
-$dark-blue: #01314b;
-$blue: #248ab8;
-$light-blue: #7fc2db;
-$white: #eff0ee;
-$beige: #e6c6a9;
+$dark-blue: #415f63;
+$blue: #8fbdc7;
+$brown: #966d35;
+$white: #dfe1d5;
+$beige: #e3d6ab;
 
 // Misc.
 	$misc: (
@@ -37,9 +37,9 @@ $beige: #e6c6a9;
 
 // Palette.
 	$palette: (
-		bg:							$blue,
+		bg:							$dark-blue,
 		bg-alt:						$dark-blue,
-		bg-overlay:					rgba($dark-blue, 0.4),
+		bg-overlay:					rgba($dark-blue, 0.3),
 		fg:							$beige,
 		fg-bold:					$beige,
 		fg-light:					rgba($beige,0.5),

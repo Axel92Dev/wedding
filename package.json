@@ -1,6 +1,6 @@
 {
   "name": "@axel92dev/wedding",
-  "description": "Me and Giulia Wedding website",
+  "description": "Ale and Giulia Wedding website",
   "version": "1.0.0",
   "author": "Alessandro Romano",
   "dependencies": {
@@ -11,6 +11,7 @@
     "gatsby-plugin-sass": "^2.1.17",
     "node-sass": "^4.12.0",
     "react": "^16.10.0",
+    "react-countdown": "^2.2.0",
     "react-dom": "^16.10.0",
     "react-helmet": "^5.2.1"
   },

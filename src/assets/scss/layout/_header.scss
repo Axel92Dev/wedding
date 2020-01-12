@@ -15,10 +15,6 @@
 			'filter #{_duration(article)} ease-in-out',
 			'opacity #{_duration(article)} ease-in-out',
 		));
-		background-image: -moz-radial-gradient(rgba(0,0,0,0.25) 25%, rgba(0,0,0,0) 55%);
-		background-image: -webkit-radial-gradient(rgba(0,0,0,0.25) 25%, rgba(0,0,0,0) 55%);
-		background-image: -ms-radial-gradient(rgba(0,0,0,0.25) 25%, rgba(0,0,0,0) 55%);
-		background-image: radial-gradient(rgba(0,0,0,0.25) 25%, rgba(0,0,0,0) 55%);
 		max-width: 100%;
 		text-align: center;
 
@@ -48,6 +44,9 @@
 		}
 
 		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
@@ -55,9 +54,7 @@
 			border-radius: 100%;
 
 			.icon {
-				&:before {
-					font-size: 2rem;
-				}
+				height: 30px;
 			}
 		}
 
@@ -88,6 +85,7 @@
 				text-transform: uppercase;
 				letter-spacing: _font(letter-spacing);
 				font-size: 1rem;
+				font-weight: bold;
 				line-height: 2;
 			}
 		}
@@ -119,6 +117,7 @@
 						text-transform: uppercase;
 						letter-spacing: _font(letter-spacing);
 						font-size: 0.8rem;
+						font-weight: bold;
 						border-bottom: 0;
 
 						&:hover {
