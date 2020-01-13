@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca97c75-72b1-4e1f-9aa1-015e2e71fe62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/countdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CountdownTimer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/countdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assets/css/countdown.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="576">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -84,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="74" column="33" selection-end-line="260" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -125,7 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>transition</find>
       <find>&lt;Close onClose={() =&gt; this.props.onCloseArticle()} /&gt;</find>
       <find>DefaultClose</find>
       <find>close</find>
@@ -155,6 +152,7 @@
       <find>bold</find>
       <find>P {</find>
       <find>:</find>
+      <find>padding: 3r</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;Close onClose={() =&gt; this.props.onCloseArticle()} /&gt;</replace>
@@ -181,11 +179,11 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" />
         <option value="$PROJECT_DIR$/src/components/Countdown.js" />
-        <option value="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/countdown.scss" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/src/assets/css/countdown.css" />
         <option value="$PROJECT_DIR$/src/components/CountdownTimer.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/src/assets/css/countdown.css" />
       </list>
     </option>
   </component>
@@ -314,12 +312,12 @@
       <updated>1573452882491</updated>
       <workItem from="1573452886107" duration="4800000" />
       <workItem from="1573886926473" duration="1908000" />
-      <workItem from="1578848962497" duration="5427000" />
+      <workItem from="1578848962497" duration="6237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12135000" />
+    <option name="totallyTimeSpent" value="12945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -570,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/components/countdown.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
@@ -604,10 +595,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="74" column="33" selection-end-line="260" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/css/countdown.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="576">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
