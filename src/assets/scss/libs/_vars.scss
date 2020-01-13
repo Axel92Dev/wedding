@@ -36,13 +36,13 @@ $beige: #ffe3b3;
 
 // Palette.
 	$palette: (
-		bg:							$beige,
-		bg-alt:						$beige,
-		bg-overlay:					rgba($beige, 0.3),
-		fg:							$dark-blue,
-		fg-bold:					$dark-blue,
-		fg-light:					rgba($dark-blue, 0.5),
-		border:						$dark-blue,
-		border-bg:					rgba($dark-blue, 0.075),
-		border-bg-alt:				rgba($dark-blue, 0.175)
+		bg:							$dark-blue,
+		bg-alt:						$dark-blue,
+		bg-overlay:					rgba($dark-blue, 0.1),
+		fg:							$white,
+		fg-bold:					$white,
+		fg-light:					rgba($white, 0.5),
+		border:						$white,
+		border-bg:					rgba($white, 0.075),
+		border-bg-alt:				rgba($white, 0.175)
 	);
