@@ -22,7 +22,7 @@ export const sections = [
   {
     id: 'contatti', title: 'CONTATTI', image: pic01, body: (<>
       <p>Ale: 3478858916</p>
-      <p>Giulia: 346</p>
+      <p>Giulia: 3463075899</p>
       <ul className="icons">
         <li>
           <a href="https://www.facebook.com/giuly732" className="icon fa-facebook" target="_blank">
