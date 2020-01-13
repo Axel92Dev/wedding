@@ -5,11 +5,14 @@ import React from 'react'
 
 export const sections = [
   {
-    id: 'ricevimento',
-    title: 'RICEVIMENTO',
+    id: 'location',
+    title: 'LOCATION',
     image: villa,
-    body: (<><p>Il ricevimento si terrà presso la splendida Villa Il Geraneo, a Monvalle</p>
-      <p>La cerimonia avrà inizio alle ore 11:30</p></>),
+    body: (<><p>Celebremo il nostro matrimonio presso la splendida Villa Il Geraneo, a Monvalle</p></>),
+  },
+  {
+    id: 'ricevimento', title: 'RICEVIMENTO', image: pic01, body: (<><p>La cerimonia parte alle 11:30</p>
+      <p>Dalle 12 si parte con antipasto</p></>),
   },
   {
     id: 'party', title: 'PARTY', image: pic01, body: (<><p>This is an work</p>
