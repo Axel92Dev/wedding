@@ -1,6 +1,7 @@
 .clock-container {
     padding: .5rem 0;
     display: flex;
+    letter-spacing: .2rem;
 }
 .clock-col {
     text-align: center;

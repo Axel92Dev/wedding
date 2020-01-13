@@ -5,7 +5,10 @@ import React from 'react'
 
 export const sections = [
   {
-    id: 'ricevimento', title: 'RICEVIMENTO', image: villa, body: (<><p>Il ricevimento si terrà presso la splendida Villa Il Geraneo, a Monvalle</p>
+    id: 'ricevimento',
+    title: 'RICEVIMENTO',
+    image: villa,
+    body: (<><p>Il ricevimento si terrà presso la splendida Villa Il Geraneo, a Monvalle</p>
       <p>La cerimonia avrà inizio alle ore 11:30</p></>),
   },
   {
@@ -15,6 +18,33 @@ export const sections = [
   {
     id: 'viaggio', title: 'VIAGGIO', image: pic01, body: (<><p>This is an work</p>
       <p>With the work</p></>),
+  },
+  {
+    id: 'contatti', title: 'CONTATTI', image: pic01, body: (<>
+      <p>Ale: 3478858916</p>
+      <p>Giulia: 346</p>
+      <ul className="icons">
+        <li>
+          <a href="https://www.facebook.com/giuly732" className="icon fa-facebook" target="_blank">
+            <span className="label">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/giuly732" className="icon fa-instagram" target="_blank">
+            <span className="label">Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/axel92dev"
+            className="icon fa-twitter"
+            target="_blank"
+          >
+            <span className="label">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </>),
   },
 
 ]

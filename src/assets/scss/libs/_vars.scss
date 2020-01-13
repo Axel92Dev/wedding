@@ -1,8 +1,7 @@
-$dark-blue: #415f63;
-$blue: #8fbdc7;
-$brown: #966d35;
-$white: #dfe1d5;
-$beige: #e3d6ab;
+$dark-blue: #35d0c7;
+$blue: #adedcc;
+$white: #fff8ec;
+$beige: #ffe3b3;
 
 // Misc.
 	$misc: (
@@ -37,13 +36,13 @@ $beige: #e3d6ab;
 
 // Palette.
 	$palette: (
-		bg:							$dark-blue,
-		bg-alt:						$dark-blue,
-		bg-overlay:					rgba($dark-blue, 0.3),
-		fg:							$beige,
-		fg-bold:					$beige,
-		fg-light:					rgba($beige,0.5),
-		border:						$beige,
-		border-bg:					rgba($beige,0.075),
-		border-bg-alt:				rgba($beige,0.175)
+		bg:							$beige,
+		bg-alt:						$beige,
+		bg-overlay:					rgba($beige, 0.2),
+		fg:							$dark-blue,
+		fg-bold:					$dark-blue,
+		fg-light:					rgba($dark-blue, 0.5),
+		border:						$dark-blue,
+		border-bg:					rgba($dark-blue, 0.075),
+		border-bg-alt:				rgba($dark-blue, 0.175)
 	);
