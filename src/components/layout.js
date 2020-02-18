@@ -41,7 +41,12 @@ const Layout = ({ children, location }) => {
               {
                 name: 'keywords',
                 content:
-                  'wedding, alessandro_romano, giulia_colombo, matrimonio',
+                  'wedding, alessandro romano, giulia colombo, matrimonio',
+              },
+              {
+                name: 'format-detection',
+                content:
+                  'telephone=no',
               },
             ]}
           >

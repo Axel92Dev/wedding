@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OraqleScript";
+  src: url("../fonts/OraqleScript.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/OraqleScript.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/OraqleScript.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/OraqleScript.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/OraqleScript.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/OraqleScript.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/OraqleScript.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

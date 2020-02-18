@@ -11,14 +11,15 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>18 Giugno 2020</h1>
+        <h1 className="oraqle">Giulia & Alessandro</h1>
+        <h1 className="oraqle">18 Giugno 2020</h1>
         <CountdownTimer date={new Date("Jun 18, 2020 11:00:00")} />
       </div>
     </div>
     <nav>
-      <ul>
+      <ul className="row">
         {sections.map(section => (
-          <li>
+          <li className="column">
             <a
               href={null}
               onClick={() => {

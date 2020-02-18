@@ -2,13 +2,14 @@ import pic01 from '../images/pic01.jpg'
 import villa from '../images/villa.jpg'
 import React from 'react'
 
+const whatsappMessage = encodeURI('Parteciperemo in 2 al vostro matrimonio e al party serale!');
 
 export const sections = [
   {
-    id: 'location',
-    title: 'LOCATION',
+    id: 'cerimonia',
+    title: 'CERIMONIA',
     image: villa,
-    body: (<><p>Celebremo il nostro matrimonio presso la splendida Villa Il Geraneo, a Monvalle</p></>),
+    body: (<><p></p></>),
   },
   {
     id: 'ricevimento', title: 'RICEVIMENTO', image: pic01, body: (<><p>La cerimonia parte alle 11:30</p>
@@ -23,10 +24,20 @@ export const sections = [
       <p>With the work</p></>),
   },
   {
-    id: 'contatti', title: 'CONTATTI', image: pic01, body: (<>
-      <p>Ale: 3478858916</p>
-      <p>Giulia: 3463075899</p>
+    id: 'contatti', title: 'CONTATTI', body: <>
+      <h3>È gradita risposta entro il 30 Aprile</h3>
+      <h4>Giulia</h4>
       <ul className="icons">
+        <li>
+          <a href={`https://wa.me/00393463075899?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
+            <span className="label">Whatsapp</span>
+          </a>
+        </li>
+        <li>
+          <a href={`tel:00393463075899`} className="icon fa-phone" target="_blank">
+            <span className="label">Telefono</span>
+          </a>
+        </li>
         <li>
           <a href="https://www.facebook.com/giuly732" className="icon fa-facebook" target="_blank">
             <span className="label">Facebook</span>
@@ -37,17 +48,21 @@ export const sections = [
             <span className="label">Instagram</span>
           </a>
         </li>
+      </ul>
+      <h4>Alessandro</h4>
+      <ul className="icons">
         <li>
-          <a
-            href="https://twitter.com/axel92dev"
-            className="icon fa-twitter"
-            target="_blank"
-          >
-            <span className="label">Twitter</span>
+          <a href={`https://wa.me/00393478858916?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
+            <span className="label">Whatsapp</span>
+          </a>
+        </li>
+        <li>
+          <a href={`tel:00393478858916`} className="icon fa-phone" target="_blank">
+            <span className="label">Telefono</span>
           </a>
         </li>
       </ul>
-    </>),
+    </>,
   },
 
 ]
