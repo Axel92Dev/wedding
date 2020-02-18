@@ -3,6 +3,7 @@ import villa from '../images/villa.jpg'
 import React from 'react'
 
 const whatsappMessage = encodeURI('Parteciperemo in 2 al vostro matrimonio e al party serale!');
+const encodedGiulia = encodeURI('+393463075899');
 
 export const sections = [
   {
@@ -30,6 +31,21 @@ export const sections = [
       <ul className="icons">
         <li>
           <a href={`https://wa.me/+393463075899?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
+            <span className="label">Whatsapp</span>
+          </a>
+        </li>
+        <li>
+          <a href={`https://wa.me/0393463075899?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
+            <span className="label">Whatsapp</span>
+          </a>
+        </li>
+        <li>
+          <a href={`https://wa.me/00393463075899?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
+            <span className="label">Whatsapp</span>
+          </a>
+        </li>
+        <li>
+          <a href={`https://wa.me/${encodedGiulia}?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
             <span className="label">Whatsapp</span>
           </a>
         </li>
