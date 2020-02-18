@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca97c75-72b1-4e1f-9aa1-015e2e71fe62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/oraqle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OraqleScript.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OraqleScript.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OraqleScript.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OraqleScript.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OraqleScript.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OraqleScript.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/countdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OpenSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OpenSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sections.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/sections.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="217">
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -352,12 +335,12 @@
       <workItem from="1573452886107" duration="4800000" />
       <workItem from="1573886926473" duration="1908000" />
       <workItem from="1578848962497" duration="11692000" />
-      <workItem from="1582007636347" duration="3711000" />
+      <workItem from="1582007636347" duration="3911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22111000" />
+    <option name="totallyTimeSpent" value="22311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -687,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/sections.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="217">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

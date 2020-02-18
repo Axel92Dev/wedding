@@ -29,12 +29,12 @@ export const sections = [
       <h4>Giulia</h4>
       <ul className="icons">
         <li>
-          <a href={`https://wa.me/00393463075899?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
+          <a href={`https://wa.me/+393463075899?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
             <span className="label">Whatsapp</span>
           </a>
         </li>
         <li>
-          <a href={`tel:00393463075899`} className="icon fa-phone" target="_blank">
+          <a href={`tel:+393463075899`} className="icon fa-phone" target="_blank">
             <span className="label">Telefono</span>
           </a>
         </li>
@@ -52,12 +52,12 @@ export const sections = [
       <h4>Alessandro</h4>
       <ul className="icons">
         <li>
-          <a href={`https://wa.me/00393478858916?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
+          <a href={`https://wa.me/+393478858916?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
             <span className="label">Whatsapp</span>
           </a>
         </li>
         <li>
-          <a href={`tel:00393478858916`} className="icon fa-phone" target="_blank">
+          <a href={`tel:+393478858916`} className="icon fa-phone" target="_blank">
             <span className="label">Telefono</span>
           </a>
         </li>
