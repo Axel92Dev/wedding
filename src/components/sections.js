@@ -1,51 +1,62 @@
-import pic01 from '../images/pic01.jpg'
+import ricevimento from '../images/ricevimento.png'
 import villa from '../images/villa.jpg'
+import party from '../images/party.png'
+import bora from '../images/bora.jpg'
 import React from 'react'
-
-const whatsappMessage = encodeURI('Parteciperemo in 2 al vostro matrimonio e al party serale!');
-const encodedGiulia = encodeURI('+393463075899');
 
 export const sections = [
   {
     id: 'cerimonia',
     title: 'CERIMONIA',
     image: villa,
-    body: (<><p></p></>),
+    body: (<>
+      <h3>Ore 11:00</h3>
+      <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
+    </>),
   },
   {
-    id: 'ricevimento', title: 'RICEVIMENTO', image: pic01, body: (<><p>La cerimonia parte alle 11:30</p>
-      <p>Dalle 12 si parte con antipasto</p></>),
+    id: 'ricevimento',
+    title: 'RICEVIMENTO',
+    image: ricevimento,
+    body: (
+      <>
+        <h3>A seguire</h3>
+        <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
+      </>
+    ),
   },
   {
-    id: 'party', title: 'PARTY', image: pic01, body: (<><p>This is an work</p>
-      <p>With the work</p></>),
+    id: 'party',
+    title: 'PARTY',
+    image: party,
+    body: (
+      <>
+        <h3>Ore 18:00</h3>
+        <p>Portate costume, ciabatte ed asciugamano!</p>
+      </>
+    ),
   },
   {
-    id: 'viaggio', title: 'VIAGGIO', image: pic01, body: (<><p>This is an work</p>
-      <p>With the work</p></>),
+    id: 'viaggio',
+    title: 'VIAGGIO',
+    image: bora,
+    body: (
+      <>
+        <h3>Bora Bora è lontana... Ma se volete aiutarci a raggiungerla:</h3>
+        <p style={{marginBottom: '0.1rem'}}>IBAN: <h3 style={{display: 'inline-block', letterSpacing: '0.1rem'}}>IT15H0301503200000005625049</h3></p>
+        <p>Intestato a: <h3 style={{display: 'inline-block', letterSpacing: '0.1rem'}}>Alessandro Romano</h3></p>
+      </>
+    ),
   },
   {
-    id: 'contatti', title: 'CONTATTI', body: <>
+    id: 'contatti',
+    title: 'CONTATTI',
+    body: <>
       <h3>È gradita risposta entro il 30 Aprile</h3>
       <h4>Giulia</h4>
       <ul className="icons">
         <li>
-          <a href={`https://wa.me/+393463075899?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
-            <span className="label">Whatsapp</span>
-          </a>
-        </li>
-        <li>
-          <a href={`https://wa.me/0393463075899?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
-            <span className="label">Whatsapp</span>
-          </a>
-        </li>
-        <li>
-          <a href={`https://wa.me/00393463075899?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
-            <span className="label">Whatsapp</span>
-          </a>
-        </li>
-        <li>
-          <a href={`https://wa.me/${encodedGiulia}?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
+          <a href={`https://wa.me/0393463075899`} className="icon fa-whatsapp" target="_blank">
             <span className="label">Whatsapp</span>
           </a>
         </li>
@@ -68,13 +79,22 @@ export const sections = [
       <h4>Alessandro</h4>
       <ul className="icons">
         <li>
-          <a href={`https://wa.me/+393478858916?text=${whatsappMessage}`} className="icon fa-whatsapp" target="_blank">
+          <a href={`https://wa.me/0393478858916`} className="icon fa-whatsapp" target="_blank">
             <span className="label">Whatsapp</span>
           </a>
         </li>
         <li>
           <a href={`tel:+393478858916`} className="icon fa-phone" target="_blank">
             <span className="label">Telefono</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/axel92dev"
+            className="icon fa-twitter"
+            target="_blank"
+          >
+            <span className="label">Twitter</span>
           </a>
         </li>
       </ul>

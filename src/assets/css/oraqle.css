@@ -11,3 +11,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.oraqle {
+  font-family: "OraqleScript", cursive;
+  font-weight: normal;
+}
+
+h2.oraqle {
+  padding-bottom: 0 !important;
+}

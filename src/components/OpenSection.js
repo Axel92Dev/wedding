@@ -13,7 +13,7 @@ export const OpenSection = ({
       className={`${isActive ? 'active' : ''} ${hasTimeout ? 'timeout' : ''}`}
       style={{ display: 'none' }}
     >
-      <h2 className="major">{title}</h2>
+      <h1 className="major oraqle" style={{paddingBottom: 0, lineHeight: 1}}>{title}</h1>
       {imgSrc && <span className="image main">
         <img src={imgSrc} alt=""/>
       </span>}
