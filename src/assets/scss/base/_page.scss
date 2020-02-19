@@ -20,8 +20,7 @@
 
 	body {
 		background: _palette(bg);
-		overflow: hidden;
-
+		overscroll-behavior: none;
 		// Prevents animation/transition "flicker" on page load.
 		// Automatically added/removed by js/main.js.
 			&.is-loading,
