@@ -12,8 +12,8 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1 className="oraqle">Giulia & Alessandro</h1>
-        <h1 className="oraqle">18 Giugno 2020</h1>
-        <CountdownTimer date={new Date("Jun 18, 2020 11:00:00")} />
+        <h1 className="oraqle">3 Settembre 2020</h1>
+        <CountdownTimer date={new Date("Sep 03, 2020 11:00:00")} />
       </div>
     </div>
     <nav>
