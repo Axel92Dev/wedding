@@ -10,7 +10,7 @@ export const sections = [
     title: 'CERIMONIA',
     image: villa,
     body: (<>
-      <h3>Ore 11:00</h3>
+      <h3>La cerimonia si svolger&agrave; alle ore 11:00</h3>
       <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
     </>),
   },
@@ -20,7 +20,7 @@ export const sections = [
     image: ricevimento,
     body: (
       <>
-        <h3>A seguire</h3>
+        <h3>Il ricevimento si terr&agrave; sempre presso la villa a seguire</h3>
         <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
       </>
     ),
@@ -31,8 +31,8 @@ export const sections = [
     image: party,
     body: (
       <>
-        <h3>Ore 18:00</h3>
-        <p>Portate costume, ciabatte ed asciugamano!</p>
+        <h3>Il party si terr&agrave; sempre presso la villa per le ore 18:00</h3>
+        <p>Consigliamo di portare costume, ciabatte ed asciugamano!</p>
       </>
     ),
   },
@@ -52,7 +52,7 @@ export const sections = [
     id: 'contatti',
     title: 'CONTATTI',
     body: <>
-      <h3>È gradita risposta entro il 30 Aprile</h3>
+      <h3>È gradita risposta entro il 15 Agosto </h3>
       <h4>Giulia</h4>
       <ul className="icons">
         <li>
