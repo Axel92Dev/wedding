@@ -20,7 +20,7 @@ export const sections = [
     image: ricevimento,
     body: (
       <>
-        <h3>Il ricevimento si terr&agrave; sempre presso la villa a seguire</h3>
+        <h3>A seguire</h3>
         <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
       </>
     ),
