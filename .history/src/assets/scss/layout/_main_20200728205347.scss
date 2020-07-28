@@ -92,46 +92,12 @@
           background-color: _palette(border-bg-alt);
         }
       }
-	}
-
-	h3 {
-		margin: 1rem 2rem;
-	}
-	
-	p {
-		margin: 1rem 2rem;
-		font-size: 1.5rem;
-	}
+    }
 
     ul#agenda {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      padding: 0;
+      text-align: center;
       list-style: none;
-	  margin: 1rem 2rem;
-	  padding: 0;
-      list-style: none;
-
-      li {
-        border-bottom: 1px solid $white;
-        border-left: none;
-		border-right: none;
-		line-height: 2rem;
-
-        &:last-child {
-          border-bottom: none;
-		}
-		
-		span {
-			font-weight: bold;
-			margin-right: 0.5rem;
-		}
-
-		.hidden {
-			visibility: hidden;
-			margin-right: 0.8rem;
-		}
-      }
     }
   }
 

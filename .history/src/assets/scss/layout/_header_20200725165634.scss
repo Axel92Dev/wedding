@@ -101,7 +101,7 @@
 
       li {
         padding-left: 0;
-        border-left: none;
+        border-left: solid _size(border-width) _palette(border);
         cursor: pointer;
 
         &:first-child {

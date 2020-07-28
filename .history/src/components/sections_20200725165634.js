@@ -7,51 +7,38 @@ import React from 'react'
 export const sections = [
   {
     id: 'cerimonia',
-    title: 'LOCATION',
+    title: 'CERIMONIA',
     image: villa,
     body: (<>
+      <h3>La cerimonia si svolger&agrave; alle ore 11:00</h3>
       <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
     </>),
   },
   {
+    id: 'ricevimento',
+    title: 'RICEVIMENTO',
+    image: ricevimento,
+    body: (
+      <>
+        <h3>A seguire</h3>
+        <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
+      </>
+    ),
+  },
+  {
     id: 'party',
-    title: 'AGENDA',
+    title: 'PARTY',
     image: party,
     body: (
       <>
-        <ul id="agenda">
-          <li>
-             <span>11:00</span> Accoglienza
-          </li>
-          <li>
-             <span>11:30</span> Cerimonia
-          </li>
-          <li>
-             <span>12:00</span> Ricevimento
-          </li>
-          <li>
-             <span>17:00</span> Taglio torta <br />
-             <span className="hidden">20:00</span>Inizio Wedding Party
-          </li>
-          <li>
-             <span>18:00</span> Apertura piscina
-          </li>
-          <li>
-             <span>20:00</span> Chiusura piscina <br />
-             <span className="hidden">20:00</span>Buffet di Grigliata e Fritti <br />
-             <span className="hidden">20:00</span>Open Bar
-          </li>
-          <li>
-             <span>21:00</span> PARTY HARD!
-          </li>
-        </ul>
-        <p>Portate costume, ciabatte ed asciugamano!</p>
+        <h3>Il party si terr&agrave; sempre presso la villa per le ore 18:00</h3>
+        <p>Consigliamo di portare costume, ciabatte ed asciugamano!</p>
       </>
     ),
   },
   {
     id: 'viaggio',
-    title: 'LISTA NOZZE',
+    title: 'VIAGGIO',
     image: bora,
     body: (
       <>

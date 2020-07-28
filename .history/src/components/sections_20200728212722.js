@@ -10,9 +10,21 @@ export const sections = [
     title: 'LOCATION',
     image: villa,
     body: (<>
+      <h3>La cerimonia si svolger&agrave; alle ore 11:00</h3>
       <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
     </>),
   },
+  // {
+  //   id: 'ricevimento',
+  //   title: 'RICEVIMENTO',
+  //   image: ricevimento,
+  //   body: (
+  //     <>
+  //       <h3>A seguire</h3>
+  //       <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
+  //     </>
+  //   ),
+  // },
   {
     id: 'party',
     title: 'AGENDA',
@@ -38,8 +50,8 @@ export const sections = [
           </li>
           <li>
              <span>20:00</span> Chiusura piscina <br />
-             <span className="hidden">20:00</span>Buffet di Grigliata e Fritti <br />
-             <span className="hidden">20:00</span>Open Bar
+             <span className="hidden">20:00</span>Inizio buffet di Grigliata e Fritti <br />
+             <span className="hidden">20:00</span>Apertura Open Bar
           </li>
           <li>
              <span>21:00</span> PARTY HARD!

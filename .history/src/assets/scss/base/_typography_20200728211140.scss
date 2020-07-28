@@ -36,7 +36,7 @@
 			'background-color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
-		border-bottom: solid 2px _palette(fg-light);
+		border-bottom: dotted 1px _palette(fg-light);
 		text-decoration: none;
 		color: inherit;
 
@@ -83,7 +83,7 @@
 	}
 
 	h1 {
-		font-size: 3.25rem;
+		font-size: 4.25rem;
 		line-height: 1.3;
 		letter-spacing: _font(letter-spacing-heading);
 	}

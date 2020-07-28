@@ -10,6 +10,7 @@ export const sections = [
     title: 'LOCATION',
     image: villa,
     body: (<>
+      <h3>La cerimonia si svolger&agrave; alle ore 11:00</h3>
       <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
     </>),
   },
