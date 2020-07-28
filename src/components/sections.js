@@ -1,4 +1,3 @@
-import ricevimento from '../images/ricevimento.png'
 import villa from '../images/villa.jpg'
 import party from '../images/party.png'
 import bora from '../images/bora.jpg'
