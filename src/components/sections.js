@@ -111,7 +111,7 @@ export const sections = [
           </a>
         </li>
       </ul>
-      <p>🙏 È gradita risposta entro il 15 Agosto  🙏</p>
+      <p>È gradita risposta entro il 15 Agosto  🙏</p>
     </>,
   },
 
