@@ -10,7 +10,8 @@ export const sections = [
     title: 'LOCATION',
     image: villa,
     body: (<>
-      <p>Presso <a href="https://goo.gl/maps/a7nZXtzyB7zfdMKd8" target="_blank">Villa il Geraneo</a></p>
+      <p><a href="http://www.villailgeraneo.com/" target="_blank" rel="noopener noreferrer">Villa Il Geraneo</a> &egrave; una location suggestiva, incorniciata dal Lago Maggiore, a Monvalle in provincia di Varese. </p>
+      <p className="center">🚘 <a href="https://goo.gl/maps/yoXr6cs7R9CZmsA38" target="_blank" rel="noopener noreferrer">Portami alla Villa!</a> 🚘</p>
     </>),
   },
   {
@@ -30,16 +31,16 @@ export const sections = [
              <span>12:00</span> Ricevimento
           </li>
           <li>
-             <span>17:00</span> Taglio torta <br />
-             <span className="hidden">20:00</span>Inizio Wedding Party
+             <span>17:00</span> Wedding Cake <br />
+             🎉<span className="hidden">20:000</span>Inizio Wedding Party
           </li>
           <li>
-             <span>18:00</span> Apertura piscina
+             <span>18:00</span> Pool Party
           </li>
           <li>
-             <span>20:00</span> Chiusura piscina <br />
-             <span className="hidden">20:00</span>Buffet di Grigliata e Fritti <br />
-             <span className="hidden">20:00</span>Open Bar
+             <span>20:00</span> Stop swim, start drink!<br />
+             🍖<span className="hidden">20:000</span>Buffet di Grigliata e Fritti<br />
+             🍹<span className="hidden">20:000</span>Open Bar All Night
           </li>
           <li>
              <span>21:00</span> PARTY HARD!
@@ -55,9 +56,9 @@ export const sections = [
     image: bora,
     body: (
       <>
-        <h3>Bora Bora è lontana... Ma se volete aiutarci a raggiungerla:</h3>
-        <p style={{marginBottom: '0.1rem'}}>IBAN: <h3 style={{display: 'inline-block', letterSpacing: '0.1rem'}}>IT15H0301503200000005625049</h3></p>
-        <p>Intestato a: <h3 style={{display: 'inline-block', letterSpacing: '0.1rem'}}>Alessandro Romano</h3></p>
+        <p>Bora Bora è lontana... Ma se volete aiutarci a raggiungerla:</p>
+        <p>IBAN: <span className="easy-copy">IT15H0301503200000005625049</span></p>
+        <p>Intestato a: <span className="easy-copy">Alessandro Romano</span></p>
       </>
     ),
   },
@@ -65,8 +66,7 @@ export const sections = [
     id: 'contatti',
     title: 'CONTATTI',
     body: <>
-      <h3>È gradita risposta entro il 15 Agosto </h3>
-      <h4>Giulia</h4>
+      <p>Giulia</p>
       <ul className="icons">
         <li>
           <a href={`https://wa.me/0393463075899`} className="icon fa-whatsapp" target="_blank">
@@ -89,7 +89,7 @@ export const sections = [
           </a>
         </li>
       </ul>
-      <h4>Alessandro</h4>
+      <p>Alessandro</p>
       <ul className="icons">
         <li>
           <a href={`https://wa.me/0393478858916`} className="icon fa-whatsapp" target="_blank">
@@ -111,6 +111,7 @@ export const sections = [
           </a>
         </li>
       </ul>
+      <p>È gradita risposta entro il 15 Agosto </p>
     </>,
   },
 

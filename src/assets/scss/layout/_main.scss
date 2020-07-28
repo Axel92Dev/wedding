@@ -92,15 +92,23 @@
           background-color: _palette(border-bg-alt);
         }
       }
-	}
+    }
 
-	h3 {
-		margin: 1rem 2rem;
+    h3 {
+      margin: 1rem 2rem;
+    }
+
+    p {
+      margin: 1rem 2rem;
+      font-size: 1.5rem;
+
+      &.center {
+        text-align: center;
+      }
 	}
 	
-	p {
-		margin: 1rem 2rem;
-		font-size: 1.5rem;
+	.easy-copy {
+		user-select: all;
 	}
 
     ul#agenda {
@@ -108,29 +116,61 @@
       flex-direction: column;
       justify-content: center;
       list-style: none;
-	  margin: 1rem 2rem;
-	  padding: 0;
-      list-style: none;
-
+      margin: 0 2rem 1rem;
+      padding: 0;
+	  list-style: none;
+	  
       li {
         border-bottom: 1px solid $white;
         border-left: none;
-		border-right: none;
-		line-height: 2rem;
+        border-right: none;
+        line-height: 2rem;
 
         &:last-child {
           border-bottom: none;
 		}
-		
-		span {
-			font-weight: bold;
+
+		&::before {
 			margin-right: 0.5rem;
 		}
+		
+		&:first-child::before {
+			content: "🥂";
+		}	
 
-		.hidden {
-			visibility: hidden;
-			margin-right: 0.8rem;
+		&:nth-child(2)::before {
+			content: "👰";
 		}
+
+		&:nth-child(3)::before {
+			content: "🍽️";
+		}
+
+		&:nth-child(4)::before {
+			content: "🍰";
+		}
+
+		&:nth-child(5)::before {
+			content: "👙";
+		}
+
+		&:nth-child(6)::before {
+			content: "⛔";
+		}
+
+		&:nth-child(7)::before {
+			content: "🕺";
+		}
+
+        span {
+          font-weight: bold;
+          margin-right: 0.5rem;
+        }
+
+        .hidden {
+          visibility: hidden;
+          margin-right: 0.8rem;
+        }
       }
     }
   }
