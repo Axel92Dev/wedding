@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Giulia&Alessandro',
+    title: 'Giulia & Alessandro',
     author: 'Alessandro Romano',
-    description: 'Matrimonio Giulia e Alessandro',
+    description: 'Matrimonio Giulia e Alessandro 3 Settembre 2020',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
