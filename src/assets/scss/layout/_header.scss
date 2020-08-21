@@ -254,8 +254,11 @@
             border-bottom: solid _size(border-width) _palette(border);
             flex-basis: 50%;
           }
-          &:nth-child(3), &:nth-child(4) {
+          &:nth-child(3) {
             border-right: solid _size(border-width) _palette(border);
+          }
+          &:nth-child(5) {
+            border-top: solid _size(border-width) _palette(border);
           }
 
           a {
